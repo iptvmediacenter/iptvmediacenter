@@ -5,6 +5,7 @@ This repository hosts the official landing page, privacy policy, and support cen
 ## 🔗 Official Links
 
 *   **Official Website**: [https://iptvmediacenter.github.io/iptvmediacenter/](https://iptvmediacenter.github.io/iptvmediacenter/)
+*   **Microsoft Store (Windows)**: [https://apps.microsoft.com/detail/9NVQ2292GSZH](https://apps.microsoft.com/detail/9NVQ2292GSZH)
 *   **Privacy Policy**: [https://iptvmediacenter.github.io/iptvmediacenter/privacy.html](https://iptvmediacenter.github.io/iptvmediacenter/privacy.html)
 *   **Legal Disclaimer**: [https://iptvmediacenter.github.io/iptvmediacenter/disclaimer.html](https://iptvmediacenter.github.io/iptvmediacenter/disclaimer.html)
 *   **Support Email**: [dev.iptvmediacenter@gmail.com](mailto:dev.iptvmediacenter@gmail.com)
