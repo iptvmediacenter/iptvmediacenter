@@ -15,38 +15,47 @@
                 <div class="logo-dot"></div>
                 IPTV Mediacenter
             </a>
-            <nav>
+            <nav style="display: flex; align-items: center; gap: 2rem;">
                 <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="disclaimer.html" class="active">Avertissement Légal</a></li>
-                    <li><a href="privacy.html">Confidentialité</a></li>
+                    <li><a href="index.html" data-i18n="nav-home">Accueil</a></li>
+                    <li><a href="disclaimer.html" class="active" data-i18n="nav-disclaimer">Avertissement Légal</a></li>
+                    <li><a href="privacy.html" data-i18n="nav-privacy">Confidentialité</a></li>
                 </ul>
+                <select id="lang-select" class="lang-selector" onchange="changeLanguage(this.value)">
+                    <option value="fr">Français</option>
+                    <option value="en">English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="es">Español</option>
+                    <option value="it">Italiano</option>
+                    <option value="nl">Nederlands</option>
+                    <option value="ar">العربية</option>
+                </select>
             </nav>
         </div>
     </header>
 
     <main class="legal-container">
         <article class="legal-card">
-            <h1>Avertissement Légal et Non-Responsabilité</h1>
-            <div class="last-updated">Date d'effet : 26 mai 2026</div>
+            <h1 data-i18n="disc-title">Avertissement Légal et Non-Responsabilité</h1>
+            <div class="last-updated" data-i18n="disc-date">Date d'effet : 26 mai 2026</div>
             
             <div class="legal-content">
-                <p>Ce logiciel est uniquement un outil de lecture multimédia et ne fournit, ne distribue, ni ne contient aucun contenu média de quelque nature que ce soit. Les utilisateurs doivent obligatoirement fournir leurs propres sources (listes de lecture M3U, identifiants de serveurs Xtream Codes, etc.).</p>
+                <p data-i18n="disc-p1">Ce logiciel est uniquement un outil de lecture multimédia et ne fournit, ne distribue, ni ne contient aucun contenu média de quelque nature que ce soit. Les utilisateurs doivent obligatoirement fournir leurs propres sources (listes de lecture M3U, identifiants de serveurs Xtream Codes, etc.).</p>
 
-                <h2>1. Absence de contenu multimédia</h2>
-                <p>IPTV Mediacenter ne fournit aucun flux vidéo, aucune chaîne de télévision, aucune bibliothèque de films ou de séries. L'application est un outil neutre qui décode et affiche les listes de lecture saisies volontairement par l'utilisateur.</p>
+                <h2 data-i18n="disc-h1">1. Absence de contenu multimédia</h2>
+                <p data-i18n="disc-p2">IPTV Mediacenter ne fournit aucun flux vidéo, aucune chaîne de télévision, aucune bibliothèque de films ou de séries. L'application est un outil neutre qui décode et affiche les listes de lecture saisies volontairement par l'utilisateur.</p>
 
-                <h2>2. Absence d'affiliation légale</h2>
-                <p>IPTV Mediacenter n'a aucune affiliation, aucun partenariat, ni aucun lien commercial avec des fournisseurs de flux, des revendeurs d'abonnements ou des distributeurs de contenu IPTV. Nous ne vendons aucun abonnement ou accès multimédia.</p>
+                <h2 data-i18n="disc-h2">2. Absence d'affiliation légale</h2>
+                <p data-i18n="disc-p3">IPTV Mediacenter n'a aucune affiliation, aucun partenariat, ni aucun lien commercial avec des fournisseurs de flux, des revendeurs d'abonnements ou des distributeurs de contenu IPTV. Nous ne vendons aucun abonnement ou accès multimédia.</p>
 
-                <h2>3. Droits d'auteur et Piratage</h2>
-                <p>Nous ne soutenons ni ne tolérons la diffusion ou la lecture de matériels protégés par le droit d'auteur sans l'autorisation explicite du titulaire de ces droits. Il est de la responsabilité stricte de l'utilisateur de s'assurer que ses sources de lecture IPTV sont conformes aux réglementations locales et internationales en vigueur. IPTV Mediacenter ne pourra être tenu responsable de l'utilisation frauduleuse du logiciel à des fins de lecture de contenus piratés.</p>
+                <h2 data-i18n="disc-h3">3. Droits d'auteur et Piratage</h2>
+                <p data-i18n="disc-p4">Nous ne soutenons ni ne tolérons la diffusion ou la lecture de matériels protégés par le droit d'auteur sans l'autorisation explicite du titulaire de ces droits. Il est de la responsabilité stricte de l'utilisateur de s'assurer que ses sources de lecture IPTV sont conformes aux réglementations locales et internationales en vigueur. IPTV Mediacenter ne pourra être tenu responsable de l'utilisation frauduleuse du logiciel à des fins de lecture de contenus piratés.</p>
 
-                <h2>4. Utilisation Conforme</h2>
-                <p>L'utilisation de notre application doit se faire en stricte conformité avec les lois de votre pays de résidence. Tout usage illicite du logiciel relève de la responsabilité exclusive de l'utilisateur final.</p>
+                <h2 data-i18n="disc-h4">4. Utilisation Conforme</h2>
+                <p data-i18n="disc-p5">L'utilisation de notre application doit se faire en stricte conformité avec les lois de votre pays de résidence. Tout usage illicite du logiciel relève de la responsabilité exclusive de l'utilisateur final.</p>
 
-                <h2>5. Marques de tiers</h2>
-                <p>Tous les logos, noms de produits ou marques mentionnés dans la documentation ou sur la fiche de présentation appartiennent à leurs propriétaires respectifs et ne constituent en aucun cas une approbation ou un partenariat de leur part.</p>
+                <h2 data-i18n="disc-h5">5. Marques de tiers</h2>
+                <p data-i18n="disc-p6">Tous les logos, noms de produits ou marques mentionnés dans la documentation ou sur la fiche de présentation appartiennent à leurs propriétaires respectifs et ne constituent en aucun cas une approbation ou un partenariat de leur part.</p>
             </div>
         </article>
     </main>
@@ -54,13 +63,14 @@
     <footer>
         <div class="footer-container">
             <div class="footer-links">
-                <a href="index.html">Accueil</a>
-                <a href="disclaimer.html">Avertissement Légal</a>
-                <a href="privacy.html">Politique de Confidentialité</a>
+                <a href="index.html" data-i18n="nav-home">Accueil</a>
+                <a href="disclaimer.html" data-i18n="nav-disclaimer">Avertissement Légal</a>
+                <a href="privacy.html" data-i18n="nav-privacy">Politique de Confidentialité</a>
             </div>
-            <p class="copyright">&copy; 2026 IPTV Mediacenter. Tous droits réservés.</p>
+            <p class="copyright" data-i18n="footer-copyright">&copy; 2026 IPTV Mediacenter. Tous droits réservés.</p>
         </div>
     </footer>
 
+    <script src="translate.js"></script>
 </body>
 </html>

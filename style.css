@@ -431,3 +431,53 @@ footer {
         padding: 2rem 1.5rem;
     }
 }
+
+/* Language Selector Dropdown */
+.lang-selector {
+    background: var(--bg-secondary);
+    border: 1px solid var(--card-border);
+    color: var(--text-primary);
+    border-radius: 8px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: var(--transition-smooth);
+}
+
+.lang-selector:hover {
+    border-color: var(--accent-primary);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* RTL Layout support */
+.rtl-layout {
+    direction: rtl;
+    text-align: right;
+}
+
+.rtl-layout h1, .rtl-layout h2, .rtl-layout h3, .rtl-layout p, .rtl-layout li {
+    text-align: right;
+}
+
+.rtl-layout .nav-container {
+    flex-direction: row-reverse;
+}
+
+.rtl-layout nav ul {
+    flex-direction: row-reverse;
+    gap: 2rem;
+}
+
+.rtl-layout .logo {
+    flex-direction: row-reverse;
+}
+
+.rtl-layout .legal-content h2 {
+    border-left: none;
+    border-right: 3px solid var(--accent-primary);
+    padding-left: 0;
+    padding-right: 0.75rem;
+}
+
