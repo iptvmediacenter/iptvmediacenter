@@ -81,6 +81,7 @@ header {
     font-weight: 800;
     background: linear-gradient(135deg, var(--text-primary) 30%, var(--accent-secondary) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: flex;
     align-items: center;
@@ -134,6 +135,7 @@ h1 {
 .gradient-text {
     background: linear-gradient(135deg, var(--text-primary) 20%, var(--accent-primary) 60%, var(--accent-secondary) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
