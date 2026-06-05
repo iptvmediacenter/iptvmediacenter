@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://iptvmediacenter.github.io/iptvmediacenter/sitemap.xml
+
 # Explicitly permit AI agents to crawl and index content
 User-agent: GPTBot
 Allow: /

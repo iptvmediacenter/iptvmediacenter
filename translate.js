@@ -77,7 +77,16 @@ const translations = {
         "disc-h4": "4. Utilisation Conforme",
         "disc-p5": "L'utilisation de notre application doit se faire en stricte conformité avec les lois de votre pays de résidence. Tout usage illicite du logiciel relève de la responsabilité exclusive de l'utilisateur final.",
         "disc-h5": "5. Marques de tiers",
-        "disc-p6": "Tous les logos, noms de produits ou marques mentionnés dans la documentation ou sur la fiche de présentation appartiennent à leurs propriétaires respectifs et ne constituent en aucun cas une approbation ou un partenariat de leur part."
+        "disc-p6": "Tous les logos, noms de produits ou marques mentionnés dans la documentation ou sur la fiche de présentation appartiennent à leurs propriétaires respectifs et ne constituent en aucun cas une approbation ou un partenariat de leur part.",
+
+        // FAQ Section
+        "faq-title": "Foire aux Questions (FAQ)",
+        "faq-q1": "Qu'est-ce que IPTV Mediacenter ?",
+        "faq-a1": "IPTV Mediacenter est un lecteur multimédia technique neutre et gratuit. Il vous permet de visionner vos propres listes de lecture (M3U, Xtream Codes) avec une interface utilisateur optimisée pour la télévision et le mobile.",
+        "faq-q2": "L'application fournit-elle des chaînes ou des abonnements ?",
+        "faq-a2": "Non. IPTV Mediacenter ne fournit aucun flux vidéo, aucune chaîne de télévision et aucun abonnement. Vous devez configurer et importer vos propres sources de diffusion légales.",
+        "faq-q3": "Sur quels appareils puis-je installer l'application ?",
+        "faq-a3": "L'application est optimisée pour Android TV (avec une navigation complète à la télécommande), les smartphones/tablettes Android, ainsi que pour Windows (téléchargeable sur le Microsoft Store)."
     },
     en: {
         "nav-home": "Home",
@@ -144,7 +153,16 @@ const translations = {
         "disc-h4": "4. Compliant Use",
         "disc-p5": "The use of our application must comply strictly with the laws of your country of residence. Any illicit use of the software is the sole responsibility of the end user.",
         "disc-h5": "5. Third-Party Trademarks",
-        "disc-p6": "All logos, product names, or trademarks mentioned in the documentation or presentation belong to their respective owners and in no way constitute an endorsement or partnership on their part."
+        "disc-p6": "All logos, product names, or trademarks mentioned in the documentation or presentation belong to their respective owners and in no way constitute an endorsement or partnership on their part.",
+
+        // FAQ Section
+        "faq-title": "Frequently Asked Questions (FAQ)",
+        "faq-q1": "What is IPTV Mediacenter?",
+        "faq-a1": "IPTV Mediacenter is a free and neutral media player. It allows you to watch your own playlists (M3U, Xtream Codes) with a user interface optimized for TV and mobile.",
+        "faq-q2": "Does the application provide channels or subscriptions?",
+        "faq-a2": "No. IPTV Mediacenter does not provide any video streams, TV channels, or subscriptions. You must configure and import your own legal streaming sources.",
+        "faq-q3": "On which devices can I install the application?",
+        "faq-a3": "The application is optimized for Android TV (with full remote control navigation), Android smartphones/tablets, and Windows (downloadable from the Microsoft Store)."
     },
     de: {
         "nav-home": "Startseite",
