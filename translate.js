@@ -32,6 +32,7 @@ const translations = {
         "download-windows": "Télécharger pour Windows",
         "download-android": "Google Play Store (Bientôt)",
         "download-support": "Contacter le Support",
+        "download-discord": "Rejoindre le Discord",
 
         // Footer
         "footer-desc": "Ce site web sert de portail de support technique et de conformité légale requis pour le déploiement sur les plateformes de téléchargement.",
@@ -112,6 +113,7 @@ const translations = {
         "download-windows": "Download for Windows",
         "download-android": "Google Play Store (Coming Soon)",
         "download-support": "Contact Support",
+        "download-discord": "Join our Discord",
         "footer-desc": "This website serves as a technical support and legal compliance portal required for deployment on app stores.",
         "footer-copyright": "&copy; 2026 IPTV Mediacenter. All rights reserved.",
 
@@ -188,6 +190,7 @@ const translations = {
         "download-windows": "Für Windows herunterladen",
         "download-android": "Google Play Store (Demnächst)",
         "download-support": "Support kontaktieren",
+        "download-discord": "Discord beitreten",
         "footer-desc": "Diese Website dient als Portal für technischen Support und die Einhaltung gesetzlicher Vorschriften, die für die Bereitstellung in App Stores erforderlich sind.",
         "footer-copyright": "&copy; 2026 IPTV Mediacenter. Alle Rechte vorbehalten.",
 
@@ -252,6 +255,7 @@ const translations = {
         "download-windows": "Descargar para Windows",
         "download-android": "Google Play Store (Próximamente)",
         "download-support": "Contactar al Soporte",
+        "download-discord": "Unirse al Discord",
         "footer-desc": "Este sitio web sirve como portal de soporte técnico y cumplimiento de normativas para tiendas de aplicaciones.",
         "footer-copyright": "&copy; 2026 IPTV Mediacenter. Todos los derechos reservados.",
 
@@ -316,6 +320,7 @@ const translations = {
         "download-windows": "Scarica per Windows",
         "download-android": "Google Play Store (Prossimamente)",
         "download-support": "Contatta il Supporto",
+        "download-discord": "Entra nel Discord",
         "footer-desc": "Questo sito Web funge da portale di supporto tecnico e conformità legale richiesto per le piattaforme di download.",
         "footer-copyright": "&copy; 2026 IPTV Mediacenter. Tutti i diritti riservati.",
 
@@ -380,6 +385,7 @@ const translations = {
         "download-windows": "Download voor Windows",
         "download-android": "Google Play Store (Binnenkort)",
         "download-support": "Contact opnemen met Support",
+        "download-discord": "Lid worden van Discord",
         "footer-desc": "Deze website dient als technisch ondersteunings- en juridisch nalevingsportaal vereist voor app-stores.",
         "footer-copyright": "&copy; 2026 IPTV Mediacenter. Alle rechten voorbehouden.",
 
@@ -444,6 +450,7 @@ const translations = {
         "download-windows": "تحميل لنظام Windows",
         "download-android": "متجر Google Play (قريباً)",
         "download-support": "الاتصال بالدعم",
+        "download-discord": "الانضمام إلى ديسكورد",
         "footer-desc": "يعمل هذا الموقع كبوابة للدعم الفني والامتثال القانوني المطلوب للنشر في متاجر التطبيقات.",
         "footer-copyright": "&copy; 2026 IPTV Mediacenter. جميع الحقوق محفوظة.",
 
